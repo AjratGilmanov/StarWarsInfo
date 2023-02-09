@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Star Wars App</title>
+    <style>
+      *{
+        color: white;
+      }
+      body{
+        background-color: rgb(46, 45, 45);
+      }
+      .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+      }
+
+      .tab{
+        display: flex;
+        margin-right: 50px;
+      }
+      .tab,.selected{
+        cursor: help;
+      }
+      .tabs{
+        display: flex;
+      } .tab:hover {
+          text-decoration: underline; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
+        }
+      .card {
+        width: 30%;
+        margin: 1%;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(142, 142, 142);
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .card {
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        margin: 20px;
+      }
+
+      .card img {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
